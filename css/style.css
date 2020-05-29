@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "ubuntu";
+  src: url("../font/Ubuntu-Light.ttf");
+  font-family: "PlayfairDisplay-Black";
+  src: url("../font/static/PlayfairDisplay-Regular.ttf");
+}
+
+/*set font cho phần tử HTML*/
+.main-bai-3 {
+  font-family: "PlayfairDisplay-Black", sans-serif;
+}
+.p-title {
+  color: #c7c1b6;
+  font-family: "ubuntu", sans-serif;
+  font-size: 12px;
+  margin-top: 25px;
+}
+.p-sinfor {
+  font-family: "PlayfairDisplay-Black", sans-serif;
+  font-size: 25px;
+}
+.main-bai-3 .header {
+  height: 180px;
+}
+.main-bai-3 .header .logo img {
+  margin-top: 75px;
+}
+.main-bai-3 .header .menu-bar ul {
+  display: flex;
+}
+.main-bai-3 .header .menu-bar ul li {
+  list-style-type: none;
+
+  margin-top: 75px;
+}
+.main-bai-3 .header .menu-bar ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-right: 130px;
+}
+.main-bai-3 .content {
+  padding: 80px;
+}
+.main-bai-3 .content .photodiary p:nth-child(1) {
+  color: #c7c1b6;
+  font-family: "ubuntu", sans-serif;
+  font-size: 12px;
+}
+.main-bai-3 .content .photodiary p:nth-child(2) {
+  font-family: "PlayfairDisplay-Black", sans-serif;
+  font-size: 25px;
+}
+.main-bai-3 .content .photodiary p:last-child {
+  margin-top: 20px;
+  color: #c7c1b6;
+  font-family: "ubuntu", sans-serif;
+  font-size: 12px;
+}
+.main-bai-3 .content .life-style {
+  margin-top: 80px;
+}
+.main-bai-3 .content .life-style .content-1 p:first-child {
+  color: #c7c1b6;
+  font-family: "ubuntu", sans-serif;
+  font-size: 12px;
+  margin-top: 100px;
+}
+.box-2 {
+  height: 280px;
+  background-color: #f0f0f0;
+}
+.box-2 .email-txt {
+  border: none;
+  background-color: transparent;
+  width: 85%;
+  font-family: "PlayfairDisplay-Black", sans-serif;
+  margin-bottom: 10px;
+}
+.box-2 .form-email {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.box-2 .form-email input[type=email]:focus{
+    outline: none;
+}
+
+.box-3{
+    margin-top: 100px;
+}
+.btn-lm{
+    text-align: center;
+    margin-top: 100px;
+}
+.btn-lm button{
+    background-color: white;
+    border:1px solid black;
+    width: 150px;
+    height: 50px;
+    font-family: "PlayfairDisplay-Black", sans-serif;
+}
+.box-4  {
+    height: 100px;
+    background-color: #f0f0f0;
+    margin-top: 100px;
+}
+.box-4 .left-footer ul{
+    font-family: "PlayfairDisplay-Black", sans-serif;
+    display: flex;
+}
+.box-4 .left-footer ul li{
+    list-style-type: none;
+    margin-top: 37px;
+}
+.box-4 .left-footer a{
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+.box-4 .right-footer ul{
+    font-family: "PlayfairDisplay-Black", sans-serif;
+    display: flex;
+    float: right;
+}
+.box-4 .right-footer ul li{
+    list-style-type: none;
+    margin-top: 37px;
+    
+}
+.box-4 .right-footer ul li:nth-child(1){
+    margin-right: 20px;
+}
+.box-4 .right-footer a{
+    color: black;
+    text-decoration: none;
+margin-right: 10px;
+}
+
